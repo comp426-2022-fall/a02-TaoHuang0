@@ -48,7 +48,7 @@ if(args.h){
 	const data = await response.json();
 
 	if(args.j){
-		console.log(date);
+		console.log(data);
 		process.exit(0);
 	}
 
