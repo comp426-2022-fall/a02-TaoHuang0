@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 import minimist from 'minimist';
 import moment from 'moment-timezone';
-let timezone = moment.tz.guess();
-
 import node_fetch from 'node-fetch';
 
 const args = minimist(process.argv.slice(2));
-console.log(args);
+
+let timezone = moment.tz.guess();
 
 if(args.t){
     timezone = args.t;
@@ -27,15 +26,18 @@ let latitude = '35';
 if(args.n){
     latitude = args.n;
 }
+
 if(args.s){
     latitude = args.s;
 }else{
     console.log("Latitude must be in range");
 }
+
 let longtitude = '79';
 if(args.e){
     longtitude = args.e;
 }
+
 if(args.w){
     longtitude = args.w;
 }else{
