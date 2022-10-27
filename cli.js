@@ -20,8 +20,7 @@ console.log(`Usage: galosh.js [options] -[n|s] LATITUDE -[e|w] LONGITUDE -z TIME
     -d 0-6        Day to retrieve weather: 0 is today; defaults to 1.
     -j            Echo pretty JSON from open-meteo API and exit.
 `)
-}
-
+}else{
 let latitude = '35';
 if(args.n){
     latitude = args.n;
@@ -61,6 +60,7 @@ if (days == 0) {
   console.log("in " + days + " days.")
 } else {
   console.log("tomorrow.")
+}
 }
     
 
