@@ -43,7 +43,7 @@ if(args.h){
 	}
 
 	if(args.w){
-    		longtitude = args.w;
+    		longtitude = args.w
 	}else{
 		console.log("Longitude must be in range")
 	}
