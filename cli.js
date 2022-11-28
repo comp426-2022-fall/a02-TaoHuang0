@@ -57,7 +57,7 @@ if(args.h){
 		process.exit(0)
 	}
 
-	const days = args.d;
+	const days = args.d
 
 	if (days == 0) {
 		console.log("today.")
