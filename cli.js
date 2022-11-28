@@ -24,7 +24,7 @@ if(args.h){
 	
 }else{
 	
-	let latitude = '35';
+	let latitude = '35'
 	
 	if(args.n){
 		latitude = args.n;
