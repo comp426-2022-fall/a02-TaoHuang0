@@ -54,7 +54,7 @@ if(args.h){
 
 	if(args.j){
 		console.log(data)
-		process.exit(0);
+		process.exit(0)
 	}
 
 	const days = args.d;
