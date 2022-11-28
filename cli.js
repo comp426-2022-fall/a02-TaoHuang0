@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import minimist from 'minimist';
 import moment from 'moment-timezone';
 import node_fetch from 'node-fetch';
