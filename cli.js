@@ -4,7 +4,7 @@ import minimist from 'minimist'
 import moment from 'moment-timezone'
 import node_fetch from 'node-fetch'
 
-const args = minimist(process.argv.slice(2));
+const args = minimist(process.argv.slice(2))
 
 let timezone = moment.tz.guess();
 
