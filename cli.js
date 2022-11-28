@@ -53,7 +53,7 @@ if(args.h){
 	const data = await response.json()
 
 	if(args.j){
-		console.log(data);
+		console.log(data)
 		process.exit(0);
 	}
 
