@@ -36,7 +36,7 @@ if(args.h){
 		console.log("Latitude must be in range")
 	}
 
-	let longtitude = '79';
+	let longtitude = '79'
 	
 	if(args.e){
 		longtitude = args.e;
