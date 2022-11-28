@@ -21,6 +21,7 @@ if(args.h){
 			    -d 0-6        Day to retrieve weather: 0 is today; defaults to 1.
 			    -j            Echo pretty JSON from open-meteo API and exit.
 	`)
+	
 }else{
 	let latitude = '35';
 	
