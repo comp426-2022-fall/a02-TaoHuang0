@@ -6,7 +6,7 @@ import node_fetch from 'node-fetch'
 
 const args = minimist(process.argv.slice(2))
 
-let timezone = moment.tz.guess();
+let timezone = moment.tz.guess()
 
 if(args.t){
 	timezone = args.t;
