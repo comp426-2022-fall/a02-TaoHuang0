@@ -39,7 +39,7 @@ if(args.h){
 	let longtitude = '79'
 	
 	if(args.e){
-		longtitude = args.e;
+		longtitude = args.e
 	}
 
 	if(args.w){
